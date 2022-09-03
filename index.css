@@ -38,6 +38,7 @@
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
+    --black-2: #0f1111;
 
 
     --container-max-width: 1180px;
@@ -72,7 +73,7 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--black-2);
     overflow-x: hidden;
 }
 
@@ -404,8 +405,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0, 0.8)), 
+        url('./images/bg_hills.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
