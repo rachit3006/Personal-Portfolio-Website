@@ -38,7 +38,7 @@
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
-    --black-2: #0f1111;
+    --black-2: #050505;
 
 
     --container-max-width: 1180px;
@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0, 0.8)), 
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 1)), 
         url('./images/bg_hills.jpg');
     height: 100vh;
     background-size: cover;
@@ -454,12 +454,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: 10rem;
 }
 
 @media(max-width: 500px) {
     .work__box:not(:last-child) {
-        margin-bottom: 20rem;
+        margin-bottom: 5rem;
     }
 }
 
@@ -469,7 +469,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 30%;
+    flex: 0 0 100%;
 }
 
 .work__list {
@@ -489,7 +489,7 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.2);
 }
 
-.work__image-box {
+/* .work__image-box {
     margin-bottom: var(--gutter-normal);
 }
 
@@ -498,7 +498,7 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1;
         margin: 0 0 0 10rem;
     }
-}
+} */
 
 @media(max-width: 900px) {
     .work__code {
@@ -568,9 +568,9 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Contact ----- */
 /* --------------------------------------- */
 
-.contact__info {
+/* .contact__info {
     max-width: var(--container-medium-width);
-}
+} */
 
 /* --------------------------------------- */
 /* ----- Footer ----- */
